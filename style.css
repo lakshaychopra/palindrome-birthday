@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --pewter-blue: #7C9EB2;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--pewter-blue);
+}
+
+.container {
+    color: white;
+    padding: 1rem;
+    display: block;
+    margin: auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.inputs {
+    width: 600px; 
+    margin: auto;
+    display: block;
+    font-size: 1.5rem;
+
+}
+.inputs label {
+    margin: auto;
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin:1rem;
+}
+
+.inputs input {
+    display: block;
+    margin: auto;
+    width: 60%;
+    border: 2px solid var(--celadon);
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.inputs button {
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: var(--pewter-blue); 
+    margin: 2rem auto;
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+#output {
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.footer {
+    margin-top: 30%;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
