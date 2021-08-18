@@ -43,11 +43,6 @@ function getDateFormat(date) {
     var dateStr = convertDateToStr(date)
 
     var ddmmyy = dateStr.day + dateStr.month + dateStr.year;
-    var ddmmyy = dateStr.day + dateStr.month + dateStr.year;
-    var ddmmyy = dateStr.day + dateStr.month + dateStr.year;
-    var ddmmyy = dateStr.day + dateStr.month + dateStr.year;
-
-
     return [ddmmyy];
 }
 
